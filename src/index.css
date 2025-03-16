@@ -18,6 +18,11 @@
   --fondo--secundario: #1a231c;
 }
 
+body {
+  background: #050909;
+  overflow-y: auto;
+}
+
 ::selection {
   background-color: var(--gryffindor--color);
   color: var(--fondo-primario);
