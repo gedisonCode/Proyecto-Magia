@@ -1,0 +1,34 @@
+.navContenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(5, 9, 9);
+    position: fixed;
+    width: 100%;
+    height: 6rem;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.navLogo {
+    height: 100%;
+    margin-left: clamp(1rem, 5vw, 5rem);
+    margin-right: clamp(1rem, 5vw, 5rem);
+    object-fit: scale-down;
+}
+
+.navLink {
+    font-family: "inter", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.navLink:hover {
+    color: var(--hufflepuff--color)
+}
+

@@ -1,0 +1,17 @@
+import React from "react";
+import style from "./header.module.css"
+
+function Header() {
+    return (
+        <>
+        <header>
+            <h1 className={style.headerTitle}>Potter<br /> Docs</h1>
+            <div className={style.header}>
+                <img src="./imagenes/Header.webp" alt="imagen header" className={style.headerImg}/>
+            </div>
+        </header>
+        </>
+    )
+}
+
+export default Header;
