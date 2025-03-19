@@ -38,7 +38,7 @@ function Pociones() {
       <section className={style.contenedorPrincipal}>
         <div className={style.contenedorImagen}>
           <img
-            src="./imagenes/- (3).jpg"
+            src="./imagenes/- (4).jpg"
             alt="imagen"
             className={style.imagen}
           />
@@ -48,10 +48,10 @@ function Pociones() {
           <div className={style.contenedorTexto}>
             <div className={style.botones}>
               <button className={style.anterior} onClick={() => anterior()}>
-                anterior
+              ◄ anterior 
               </button>
               <button className={style.siguiente} onClick={() => siguiente()}>
-                siguiente
+                siguiente ►
               </button>
             </div>
 

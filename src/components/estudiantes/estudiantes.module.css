@@ -1,7 +1,7 @@
 .contenedor {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 50%;
     padding-top: 1rem;
     margin-top: 1rem;
     background-color: var(--fondo--secundario);

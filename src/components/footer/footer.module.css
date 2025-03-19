@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: center;
+    height: 25rem;
+    width: 100%;
+    background-color: var(--gryffindor--color);
+    padding: 2rem;
+    border-top: 5px solid var(--hufflepuff--color)
+}
+
+.imagen {
+    height: 100%;
+    filter: drop-shadow(0px 5px 7px black);
+}
