@@ -188,7 +188,12 @@
 .cargarMas:hover {
     background-color: var(--hufflepuff--color);
     color: var(--fondo--primario);
+}
 
+.cargarMas:active {
+    background-color: var(--gryffindor--color);
+    color: var(--fondo--primario);
+    padding: 1rem;
 }
 
 .nombrePersonaje {
