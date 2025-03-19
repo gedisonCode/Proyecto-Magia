@@ -1,0 +1,70 @@
+.contenedorPrincipal {
+    display: flex;
+    width: 100%;
+    height: 100dvh;
+    padding: 6rem;
+}
+
+.contenedorImagen {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    overflow: hidden;
+    padding: 2rem;
+    transition: 0.3s;
+}
+
+.imagen {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px
+}
+
+.contenedorImagen:hover {
+    filter: grayscale(80%);
+    padding: 1rem;
+}
+
+.contenedorTexto {
+    display: flex;
+    align-content: center;
+    text-align: right;
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    padding: 5rem;
+    flex-direction: column;
+    align-items: right;
+    color: var(--fondo--primario);
+    font-size: 4rem;
+    font-family: "Cinzel", serif;
+}
+
+.botones {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem auto;
+}
+
+.anterior,
+.siguiente {
+    padding: 1rem;
+    font-family: "Cinzel", serif;
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: var(--fondo--primario);
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+
+.anterior:hover,
+.siguiente:hover {
+    letter-spacing: 2px;
+    color: var(--gryffindor--color);
+    font-weight: 800;
+}

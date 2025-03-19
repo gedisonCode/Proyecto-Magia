@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./navbar.module.css";
-import { Link } from "react-scroll"
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (
@@ -16,7 +16,11 @@ function Navbar() {
           className={style.navLogo}
         />
 
-        <Link to="estudiantes" smooth={true} duration={500} className={style.navLink}>
+        <Link
+          to="estudiantes"
+          smooth={true}
+          duration={500}
+          className={style.navLink}>
           estudiantes
         </Link>
       </nav>

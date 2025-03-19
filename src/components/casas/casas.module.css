@@ -78,6 +78,7 @@
 .slytherin:hover {
     background-color: var(--slytherin--color);
     color: white;
+    border-radius: 3px;
 }
 
 .ravenclaw:hover {
@@ -88,7 +89,6 @@
 .hufflepuff:hover {
     background-color: var(--hufflepuff--color);
     color: white;
-    border-radius: 3px;
 }
 
 .casasInfo {
@@ -105,7 +105,7 @@
 }
 
 .imagenEscudo {
-    height: 100%;
+    height: 75%;
 }
 
 
@@ -157,5 +157,12 @@
     }
     .imagenEscudo {
         height: 80vw;
+    }
+    .texto {
+        padding: 4rem;
+        width: 100%;
+        color: var(--hufflepuff--color);
+        height: auto;
+
     }
 }

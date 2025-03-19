@@ -31,8 +31,6 @@ function Casas() {
 
   if (!texto) return <p>Cargando...</p>;
 
-  console.log(texto);
-
   function mostrarMenu() {
     setMostrar(!mostrar);
   }
@@ -82,6 +80,8 @@ function Casas() {
           )}
         </div>
       </Element>
+
+      
       {texto && texto[escudo] && (
         <div className={style.casasInfo}>
           <div className={style.contenedorImagen}>
