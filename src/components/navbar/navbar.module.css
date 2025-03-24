@@ -17,6 +17,11 @@
     margin-left: clamp(1rem, 5vw, 5rem);
     margin-right: clamp(1rem, 5vw, 5rem);
     object-fit: scale-down;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.navLogo:hover {
+    height: 105%;
 }
 
 .navLink {

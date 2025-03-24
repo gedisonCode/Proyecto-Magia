@@ -10,12 +10,13 @@ function Navbar() {
           hogwarts
         </Link>
 
+        <Link to="logo" smooth={true} duration={200} className={style.navLogo}>
         <img
           src="./imagenes/casas/Hogwartscrest.webp"
           alt="Logo-hogwarts"
           className={style.navLogo}
         />
-
+        </Link>
         <Link
           to="estudiantes"
           smooth={true}

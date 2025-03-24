@@ -1,10 +1,10 @@
 import React from "react";
 import style from "./header.module.css";
-
+import { Element } from "react-scroll";
 function Header() {
   return (
     <>
-      <header>
+      <Element name="logo">
         <h1 className={style.headerTitle}>
           Potter
           <br /> Docs
@@ -16,7 +16,7 @@ function Header() {
             className={style.headerImg}
           />
         </div>
-      </header>
+      </Element>
     </>
   );
 }

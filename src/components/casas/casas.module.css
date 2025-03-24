@@ -146,7 +146,7 @@
     .casasInfo {
         display: flex;
         flex-direction: column;
-        height: 80dvh;
+        height: auto;
     }
     .contenedorImagen {
         display: flex;
