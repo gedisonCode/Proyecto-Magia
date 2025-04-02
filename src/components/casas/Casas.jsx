@@ -81,7 +81,6 @@ function Casas() {
         </div>
       </Element>
 
-      
       {texto && texto[escudo] && (
         <div className={style.casasInfo}>
           <div className={style.contenedorImagen}>
