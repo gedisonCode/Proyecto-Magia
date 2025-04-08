@@ -31,6 +31,7 @@ function Estudiantes() {
     setCasa(gryffindor);
     setMostrar(false);
   }
+
   function casaRavenclaw() {
     const ravenClaw = estudiante.filter(
       (personaje) => personaje.house === "Ravenclaw"
@@ -38,6 +39,7 @@ function Estudiantes() {
     setCasa(ravenClaw);
     setMostrar(false);
   }
+
   function casaHufflepuff() {
     const hufflePuff = estudiante.filter(
       (personaje) => personaje.house === "Hufflepuff"
@@ -45,6 +47,7 @@ function Estudiantes() {
     setCasa(hufflePuff);
     setMostrar(false);
   }
+  
   function casaSlytherin() {
     const slytherin = estudiante.filter(
       (personaje) => personaje.house === "Slytherin"
