@@ -1,8 +1,7 @@
 
-# Potter Web
+# 🧙Potter Web
 
-🧙Un ejemplo de uso de la api de de Harry Potter,
-con un enfoque minimalista y limpio, haciendo uso de ReactJs y Css Modules.  
+🌂Use example of harry potter api, written on ReactJs & CSS modules, with a minimalistic and clean style. 
 
 
 
